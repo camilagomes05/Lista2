@@ -1,0 +1,3 @@
+﻿  Origem.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo não resolvido, _main, referenciado na função "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\camyl\OneDrive\Área de Trabalho\Lista2 - CamilaGomes\HelloOrtho\Debug\Exercicio3.exe : fatal error LNK1120: 1 externo não resolvidos

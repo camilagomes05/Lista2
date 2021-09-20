@@ -1,0 +1,4 @@
+﻿  Origem.cpp
+C:\Users\camyl\OneDrive\Área de Trabalho\Lista2 - CamilaGomes\Lista2\Exercicio5\Origem.cpp(39,25): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\camyl\OneDrive\Área de Trabalho\Lista2 - CamilaGomes\Lista2\Exercicio5\Origem.cpp(218,2): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+  Exercicio5.vcxproj -> C:\Users\camyl\OneDrive\Área de Trabalho\Lista2 - CamilaGomes\Lista2\Debug\Exercicio5.exe
