@@ -24,6 +24,7 @@
     <ProjectGuid>{bd2b3295-e8ea-47cf-bd12-7235841a2575}</ProjectGuid>
     <RootNamespace>Exercicio5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Exercicio1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,11 +147,11 @@
     <ClCompile Include="Origem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Exercicio4\shaders\transforms.fs" />
-    <None Include="..\Exercicio4\shaders\transforms.vs" />
+    <ClInclude Include="..\Exercicio4\Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Exercicio4\Shader.h" />
+    <None Include="shaders\transforms.fs" />
+    <None Include="shaders\transforms.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

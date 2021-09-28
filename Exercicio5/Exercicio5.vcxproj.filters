@@ -26,16 +26,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Exercicio4\shaders\transforms.fs">
-      <Filter>Arquivos de Recurso\shaders</Filter>
-    </None>
-    <None Include="..\Exercicio4\shaders\transforms.vs">
-      <Filter>Arquivos de Recurso\shaders</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\Exercicio4\Shader.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\transforms.fs">
+      <Filter>Arquivos de Recurso\shaders</Filter>
+    </None>
+    <None Include="shaders\transforms.vs">
+      <Filter>Arquivos de Recurso\shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

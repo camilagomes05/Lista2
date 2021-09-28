@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6b81b040-a6c1-4d36-a28e-0c54fb2a0357}</ProjectGuid>
-    <RootNamespace>Exercicio2</RootNamespace>
+    <ProjectGuid>{65fb397e-d15b-4e1d-99dc-89538da309d5}</ProjectGuid>
+    <RootNamespace>exercicio2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>../../dependencies/glm;../../dependencies/glfw-3.3.4.bin.WIN32/include;../../dependencies/GLAD/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../dependencies/glut.h;../../dependencies/glm;../../dependencies/glfw-3.3.4.bin.WIN32/include;../../dependencies/GLAD/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,15 +142,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\glad.c" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="Origem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Exercicio7\shaders\ortho.fs" />
-    <None Include="..\Exercicio7\shaders\ortho.vs" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Exercicio7\Shader.h" />
+    <None Include="shaders\transforms.fs" />
+    <None Include="shaders\transforms.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
